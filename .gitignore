@@ -1,0 +1,8 @@
+**/__pycache__/
+
+/docs/*
+!/data/raw/
+!/data/raw/**
+
+/.tags
+/.tags_sorted_by_file

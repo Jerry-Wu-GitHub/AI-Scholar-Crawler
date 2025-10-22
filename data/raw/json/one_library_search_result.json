@@ -1,0 +1,288 @@
+{
+	"enrichment":{
+		"virtualBrowseObject":{
+			"callNumber":"",
+			"isVirtualBrowseEnabled":false,
+			"callNumberBrowseField":"browse_callnumber"
+		}
+	},
+	"context":"PC",
+	"adaptor":"primo_central_multiple_fe",
+	"pnx":{
+		"delivery":{
+			"fulltext":["fulltext"],
+			"delcategory":["Remote Search Resource"]
+		},
+		"search":{
+			"sourceid":["2RA"],
+			"creatorcontrib":["武相军 王春淋 阚海斌"],
+			"creator":["武相军 王春淋 阚海斌"],
+			"creationdate":["2013"],
+			"subject":[
+				"分数阶混沌系统",
+				"图像置乱",
+				"密文交错扩散",
+				"彩色图像",
+				"混沌加密"
+			],
+			"rsrctype":["article"],
+			"description":["为了实现对彩色图像信息的有效保护，提出一种像素置乱及密文交错扩散技术相结合的加密算法。首先对3个分数阶混沌系统产生的混沌序列进行优化改进，得到两组不同的性能优良的混沌密钥序列，并将RGB彩色图像转换为由基色分量组成的灰度图像；然后，利用一组改进的混沌密钥序列对该灰度图像的像素位置进行置乱；最后，利用另一组改进的混沌密钥序列对置乱图像进行2轮基色分量之间的密文交错扩散操作，得到加密图像。仿真实验表明，该算法具有足够大的密钥空间，高度的密钥敏感性，较好的像素分布特性，且在抵抗唯密文攻击、差分攻击、选择明文攻击及统计攻击方面都具有良好的性能，可以广泛地应用于多媒体数据的保密通信中。"],
+			"title":[
+				"基于多分数阶混沌系统的彩色图像加密算法",
+				"计算机与现代化"
+			],
+			"startdate":["2013"],
+			"addtitle":["Computer and Modernization"],
+			"recordid":["eNo9j7tKA0EYhadQMGoeQrCw2fWfmZ2ZnVKCNwjYpA-zt2QX3Wg2QVMrQUW0CkosYmFjo5KAgQR9GmdX38KViNWBw8c5fIuoqNqtuh-3Qle1fA-hVQwmlVyuR2aYJLGJAbhBLMFMApiaGJsAeA4V_vsFVEyS0AEghFMmWQFJPZh8Tq71Y1-fd9Pe6_fdWzoep8OrbDTNpoOsf6bfn74uhvr-Q5_e6MsH_dLNnm_TUW8ZzQdqP_GLf7mEKlubldKOUd7b3i1tlA2XSWxYvmMLACmVo7BnC8sWDDj3GLicUC4IUUEgFLVJwIVUPpcBCIcJJinxLerQJbQ2mz1WcaDiWjVqtJtxfliNkqhz4tV_VXFuiHN0ZYa69UZcOwpz-LAZHqhmp2oJgW2Lc_oDFfZv2w"],
+			"general":[
+				"河南大学软件学院，河南 开封 475004",
+				"复旦大学计算机科学技术学院，上海 200433%河南大学计算机与信息工程学院,河南 开封,475004%复旦大学计算机科学技术学院,上海,200433"
+			],
+			"enddate":["2013"],
+			"issn":["1006-2475"],
+			"scope":[
+				"2RA",
+				"92L",
+				"CQIGP",
+				"W92",
+				"~WA",
+				"2B.",
+				"4A8",
+				"92I",
+				"93N",
+				"PSX",
+				"TCJ"
+			],
+			"recordtype":["article"],
+			"fulltext":["true"]
+		},
+		"display":{
+			"identifier":[
+				"ISSN: 1006-2475",
+				"DOI: 10.3969\/j.issn.1006-2475.2013.11.001"
+			],
+			"creator":["武相军 王春淋 阚海斌"],
+			"subject":["分数阶混沌系统 ; 图像置乱 ; 密文交错扩散 ; 彩色图像 ; 混沌加密"],
+			"ispartof":["计算机与现代化, 2013 (11), p.1-7"],
+			"rights":["Copyright © Wanfang Data Co. Ltd. All Rights Reserved."],
+			"publisher":["河南大学软件学院，河南 开封 475004"],
+			"description":["为了实现对彩色图像信息的有效保护，提出一种像素置乱及密文交错扩散技术相结合的加密算法。首先对3个分数阶混沌系统产生的混沌序列进行优化改进，得到两组不同的性能优良的混沌密钥序列，并将RGB彩色图像转换为由基色分量组成的灰度图像；然后，利用一组改进的混沌密钥序列对该灰度图像的像素位置进行置乱；最后，利用另一组改进的混沌密钥序列对置乱图像进行2轮基色分量之间的密文交错扩散操作，得到加密图像。仿真实验表明，该算法具有足够大的密钥空间，高度的密钥敏感性，较好的像素分布特性，且在抵抗唯密文攻击、差分攻击、选择明文攻击及统计攻击方面都具有良好的性能，可以广泛地应用于多媒体数据的保密通信中。"],
+			"language":["chi"],
+			"source":[
+				"维普期刊资源整合服务平台",
+				"万方数据期刊",
+				"Alma\/SFX Local Collection"
+			],
+			"type":["article"],
+			"title":["基于多分数阶混沌系统的彩色图像加密算法"]
+		},
+		"control":{
+			"recordid":["TN_cdi_wanfang_journals_jsjyxdh201311001"],
+			"sourceid":["wanfang_jour_chong"],
+			"iscdi":["true"],
+			"cqvipid":["47718466"],
+			"recordtype":["article"],
+			"originalsourceid":["FETCH-LOGICAL-c591-4eb870099aba1d874875066d50c6236722aff7a382f679ae69f07b575932e43b3"],
+			"sourceformat":["XML"],
+			"sourcetype":["Aggregation Database"],
+			"wanfjid":["jsjyxdh201311001"],
+			"sourcerecordid":["jsjyxdh201311001"],
+			"sourcesystem":["PC"],
+			"addsrcrecordid":["eNo9j7tKA0EYhadQMGoeQrCw2fWfmZ2ZnVKCNwjYpA-zt2QX3Wg2QVMrQUW0CkosYmFjo5KAgQR9GmdX38KViNWBw8c5fIuoqNqtuh-3Qle1fA-hVQwmlVyuR2aYJLGJAbhBLMFMApiaGJsAeA4V_vsFVEyS0AEghFMmWQFJPZh8Tq71Y1-fd9Pe6_fdWzoep8OrbDTNpoOsf6bfn74uhvr-Q5_e6MsH_dLNnm_TUW8ZzQdqP_GLf7mEKlubldKOUd7b3i1tlA2XSWxYvmMLACmVo7BnC8sWDDj3GLicUC4IUUEgFLVJwIVUPpcBCIcJJinxLerQJbQ2mz1WcaDiWjVqtJtxfliNkqhz4tV_VXFuiHN0ZYa69UZcOwpz-LAZHqhmp2oJgW2Lc_oDFfZv2w"]
+		},
+		"links":{
+			"openurl":["$$Topenurl_article"],
+			"thumbnail":["$$Uhttp:\/\/image.cqvip.com\/vip1000\/qk\/97264X\/97264X.jpg"],
+			"openurlfulltext":["$$Topenurlfull_article"]
+		},
+		"sort":{
+			"creationdate":["2013"],
+			"author":["武相军 王春淋 阚海斌"],
+			"title":["基于多分数阶混沌系统的彩色图像加密算法"]
+		},
+		"addata":{
+			"date":["2013"],
+			"issue":["11"],
+			"ristype":["JOUR"],
+			"format":["journal"],
+			"spage":["1"],
+			"abstract":["为了实现对彩色图像信息的有效保护，提出一种像素置乱及密文交错扩散技术相结合的加密算法。首先对3个分数阶混沌系统产生的混沌序列进行优化改进，得到两组不同的性能优良的混沌密钥序列，并将RGB彩色图像转换为由基色分量组成的灰度图像；然后，利用一组改进的混沌密钥序列对该灰度图像的像素位置进行置乱；最后，利用另一组改进的混沌密钥序列对置乱图像进行2轮基色分量之间的密文交错扩散操作，得到加密图像。仿真实验表明，该算法具有足够大的密钥空间，高度的密钥敏感性，较好的像素分布特性，且在抵抗唯密文攻击、差分攻击、选择明文攻击及统计攻击方面都具有良好的性能，可以广泛地应用于多媒体数据的保密通信中。"],
+			"atitle":["基于多分数阶混沌系统的彩色图像加密算法"],
+			"addtitle":["Computer and Modernization"],
+			"pages":["1-7"],
+			"au":["武相军 王春淋 阚海斌"],
+			"issn":["1006-2475"],
+			"epage":["7"],
+			"genre":["article"],
+			"tpages":["7"],
+			"jtitle":["计算机与现代化"],
+			"risdate":["2013"],
+			"pub":["河南大学软件学院，河南 开封 475004"],
+			"doi":["10.3969\/j.issn.1006-2475.2013.11.001"]
+		},
+		"facets":{
+			"frbrtype":["5"],
+			"creatorcontrib":["武相军 王春淋 阚海斌"],
+			"creationdate":["2013"],
+			"toplevel":["online_resources"],
+			"frbrgroupid":["cdi_FETCH-LOGICAL-c591-4eb870099aba1d874875066d50c6236722aff7a382f679ae69f07b575932e43b3"],
+			"rsrctype":["articles"],
+			"topic":[
+				"分数阶混沌系统",
+				"图像置乱",
+				"密文交错扩散",
+				"彩色图像",
+				"混沌加密"
+			],
+			"language":["chi"],
+			"collection":[
+				"维普期刊资源整合服务平台",
+				"中文科技期刊数据库-CALIS站点",
+				"维普中文期刊数据库",
+				"中文科技期刊数据库-工程技术",
+				"中文科技期刊数据库- 镜像站点",
+				"Wanfang Data Journals - Hong Kong",
+				"WANFANG Data Centre",
+				"Wanfang Data Journals",
+				"万方数据期刊 - 香港版",
+				"China Online Journals (COJ)",
+				"China Online Journals (COJ)"
+			],
+			"jtitle":["计算机与现代化"],
+			"prefilter":["articles"]
+		}
+	},
+	"@id":"https:\/\/fudan-primo.hosted.exlibrisgroup.com.cn\/primo_library\/libweb\/webservices\/rest\/primo-explore\/v1\/pnxs\/PC\/TN_cdi_wanfang_journals_jsjyxdh201311001"
+}
+{
+	"delivery": {
+		"institution": ["FDU"],
+		"delcategory": ["Physical Item"]
+	},
+	"display": {
+		"identifier": ["$$CISBN$$V 978-7-5502-0930-5"],
+		"lds05": ["K827=49 /H73W"],
+		"creator": ["王开"],
+		"creationdate": ["2013"],
+		"availinstitution": ["$$IFDU$$Savailable"],
+		"subject": ["皇太极, 1592-1643 -- 传记; 帝王 -- 传记 -- 中国 -- 清代"],
+		"ispartof": ["博维经典"],
+		"format": ["264页;24cm"],
+		"description": ["努尔哈赤突然驾崩, 汗位之争暗潮汹涌, 德高望重的兄长代善, 母亲圣宠正隆的多尔衮, 都是汗位的极有力竞争者, 皇太极如何扫清障碍、从中胜出……"],
+		"availlibrary": ["$$IFDU$$LWWKSK$$2(K827=49 /H73W )$$Savailable$$31$$40$$5N$$60$$XFDU50$$YWWKSK"],
+		"language": ["chi"],
+		"type": ["book"],
+		"title": ["我意天下 : 皇太极"],
+		"publisher": ["北京联合出版公司"],
+		"availpnx": ["available"],
+		"lds01": ["K827=49"],
+		"lds04": ["皇太极"],
+		"lds03": ["001171375"]
+	},
+	"control": {
+		"recordid": ["fdu_local_aleph_fdu01001171375"],
+		"sourceid": ["fdu_local_aleph_fdu01"],
+		"ilsapiid": ["fdu01001171375"],
+		"originalsourceid": ["fdu01"],
+		"sourceformat": ["UNIMARC"],
+		"sourcerecordid": ["001171375"],
+		"sourcesystem": ["Aleph"]
+	},
+	"sort": {
+		"creationdate": ["2013"],
+		"author": ["wang kai"],
+		"title": ["wo yi tian xia"]
+	},
+	"frbr": {
+		"t": [1],
+		"k1": ["$$K王开$$AA"],
+		"k3": ["$$K我意天下 皇太极$$AT"]
+	},
+	"dedup": {
+		"f10": ["北京联合出版公司"],
+		"f11": ["王开"],
+		"f1": ["001171375"],
+		"f2": ["001171375"],
+		"f3": ["9787550209305"],
+		"c1": ["001171375"],
+		"f5": ["我意天下 皇太极"],
+		"c2": ["9787550209305"],
+		"f6": ["2013"],
+		"c3": ["我意天下皇太极"],
+		"f7": ["我意天下 皇太极"],
+		"c4": ["北京"],
+		"f8": ["我意天下"],
+		"f9": ["264页"],
+		"t": [1]
+	},
+	"facets": {
+		"frbrtype": ["6"],
+		"creatorcontrib": ["王开"],
+		"creationdate": ["2013"],
+		"toplevel": ["available"],
+		"library": ["WWKSK"],
+		"newrecords": ["20210623_874"],
+		"frbrgroupid": ["1175823131"],
+		"rsrctype": ["books"],
+		"topic": ["皇太极, 传记", "帝王 传记"],
+		"lfc10": ["北京联合出版公司"],
+		"language": ["chi"],
+		"prefilter": ["books"]
+	},
+	"enrichment": {
+		"classificationddc": ["K827=49", "K827=49 /H73W"]
+	},
+	"search": {
+		"sourceid": ["fdu_local_aleph_fdu01"],
+		"creator": ["王开著", "王开"],
+		"creationdate": ["2013"],
+		"subject": ["皇太极, 传记", "帝王 传记",
+		"皇太极, 1592-1643",
+		"传记",
+		"帝王",
+		"传记 -- 中国 -- 清代"],
+		"isbn": ["9787550209305",
+			"978-7-5502-0930-5",
+		"7550209308"],
+		"rsrctype": ["book"],
+		"format": ["264页 24cm"],
+		"description": ["努尔哈赤突然驾崩, 汗位之争暗潮汹涌, 德高望重的兄长代善, 母亲圣宠正隆的多尔衮, 都是汗位的极有力竞争者, 皇太极如何扫清障碍、从中胜出……"],
+		"lsr03": ["北京联合出版公司"],
+		"lsr02": ["K827=49 /H73W"],
+		"lsr01": ["K827=49"],
+		"title": ["我意天下",
+			"皇太极"],
+		"addtitle": ["皇太极",
+			"博维经典",
+		"wo yi tian xia"],
+		"addsrcrecordid": ["001171375"],
+		"recordid": ["fdu_local_aleph_fdu01001171375"],
+		"scope": ["fdu_local_aleph_fdu01",
+			"fdu_book",
+	"FDU"]},
+		"links": {"openurl": ["$$Topenurl_journal"],
+			"thumbnail": ["$$Tlocal_thumb"],
+		"backlink": ["$$Taleph_backlink$$Ebacklink"],
+		"linktoholdings": ["$$Taleph_holdings"],
+		"openurlfulltext": ["$$Topenurlfull_journal"],
+		"linktouc": ["$$Tdouban$$Edouban",
+			"$$Tdangdang$$Edangdang",
+		"$$Tduxiu$$Eduxiu",
+	"$$Tzhiwangshuping$$Ezhiwangshuping"]},
+		"ranking": {"booster2": ["1"],
+		"booster1": ["1"]},
+		"addata": {"lccn": ["978-7-5502-0930-5"],
+			"seriestitle": ["博维经典"],
+		"au": ["王开"],
+		"stitle": ["北京"],
+		"isbn": ["9787550209305"],
+		"format": ["book"],
+		"genre": ["book"],
+		"ristype": ["BOOK"],
+	"btitle": ["我意天下 : 皇太极"]},
+		"browse": {"institution": ["FDU"],
+			"subject": ["$$D皇太极, 1592-1643--传记$$E皇太极 1592-1643 传记",
+			"$$D帝王---- 传记 中国 清代$$E帝王 di wang 传记 中国 清代"],
+		"author": ["$$D王开$$E王开 wang kai"],
+		"callnumber": ["$$DK827=49 /H73W$$Ek827=49 /h73w$$IFDU"],
+	"title": ["$$D我意天下:皇太极$$E我意天下 wo yi tian xia 皇太极"]}}

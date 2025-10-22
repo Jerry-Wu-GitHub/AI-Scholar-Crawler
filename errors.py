@@ -1,0 +1,2 @@
+class DataParseError(Exception):
+    pass
