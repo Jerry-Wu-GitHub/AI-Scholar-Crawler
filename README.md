@@ -145,5 +145,7 @@
 
 ## 耗时
 
+测试环境：Windows 11 (Build 26100) / Intel Core i7-13xxx / 32 GB RAM
+
 - 若使用 `scheme1` ，则需要运行大约 400 秒。
-- 若使用 `scheme2` ，则需要运行大约一小时。
+- 若使用 `scheme2` ，则需要运行大约 1 小时。
