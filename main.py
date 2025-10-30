@@ -6,6 +6,7 @@ import time
 from fudan.spider import async_general_information
 from config.constants import ALL_DATA_FILE_PATH, INFORMATION_FILE_PATH, FILE_ENCODING, MAX_WORKERS
 from exlibrisgroup.spider import Session
+# from exlibrisgroup.hosted.fudan_primo.primo_library.libweb.webservices import guestJwt, pnxs
 
 
 if __name__ == '__main__':
@@ -45,3 +46,12 @@ if __name__ == '__main__':
             for paper_info in paper_infos:
                 json.dump(paper_info, file, ensure_ascii=False)
                 file.write("\n")
+
+    # # Test
+    # token = "eyJraWQiOiJwcmltb0V4cGxvcmVQcml2YXRlS2V5LUZEVSIsImFsZyI6IkVTMjU2In0.eyJpc3MiOiJQcmltbyIsImp0aSI6IiIsImNtanRpIjpudWxsLCJleHAiOjE3NjE5MTY4MTgsImlhdCI6MTc2MTgzMDQxOCwidXNlciI6ImFub255bW91cy0xMDMwXzEzMjAxOCIsInVzZXJOYW1lIjpudWxsLCJ1c2VyR3JvdXAiOiJHVUVTVCIsImJvckdyb3VwSWQiOm51bGwsInViaWQiOm51bGwsImluc3RpdHV0aW9uIjoiRkRVIiwidmlld0luc3RpdHV0aW9uQ29kZSI6IkZEVSIsImlwIjoiMTM5LjIyNy4yNDQuMTUiLCJwZHNSZW1vdGVJbnN0IjpudWxsLCJvbkNhbXB1cyI6ImZhbHNlIiwibGFuZ3VhZ2UiOiJ6aF9DTiIsImF1dGhlbnRpY2F0aW9uUHJvZmlsZSI6IiIsInZpZXdJZCI6ImZkdSIsImlsc0FwaUlkIjpudWxsLCJzYW1sU2Vzc2lvbkluZGV4IjoiIiwiand0QWx0ZXJuYXRpdmVCZWFjb25JbnN0aXR1dGlvbkNvZGUiOiJGRFUifQ.DSVdzgGYH1GJ9YdgF_tHdJ-eriujZR6p9WjL46xDr0nBgYCts80PVY_aBSFsmgv80GonZRAdLgmArElMa5grgw"
+    # token = guestJwt("fdu")
+    # data = pnxs(token, "阚海斌", 10, "fdu")
+    # with open("data/search_result.jsonl", mode = "w", encoding = "utf-8") as file:
+    #     for line in data:
+    #         json.dump(line, file, ensure_ascii = False)
+    #         file.write("\n")

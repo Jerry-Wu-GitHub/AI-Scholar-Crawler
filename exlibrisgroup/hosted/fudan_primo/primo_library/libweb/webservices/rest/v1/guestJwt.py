@@ -1,3 +1,5 @@
+import json
+
 import aiohttp
 import requests
 import urllib.parse
@@ -30,7 +32,7 @@ def _get_arguments(institution: str) -> Dict[str, str]:
         'isGuest': 'true',
         'lang': 'zh_CN',
         'targetUrl': urllib.parse.quote(referer, safe = ''),
-        'viewId': 'UnknownView',
+        'viewId': institution.lower(),
     }
 
     return {
@@ -59,7 +61,7 @@ def guestJwt(institution: str, **kwargs: Dict[str, Any]):
     """
     arguments = kwargs | _get_arguments(institution)
     response = requests.get(**arguments)
-    return response.text
+    return json.loads(response.text)
 
 
 async def async_guestJwt(institution: str, **kwargs: Dict[str, Any]):
@@ -82,4 +84,4 @@ async def async_guestJwt(institution: str, **kwargs: Dict[str, Any]):
     arguments = kwargs | _get_arguments(institution)
     async with aiohttp.ClientSession() as session:
         async with session.get(**arguments) as response:
-            return await response.text()
+            return json.loads(await response.text())
